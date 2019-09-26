@@ -11,7 +11,7 @@ import WebKit
 
 class ImageCache: NSObject, WKURLSchemeHandler {
     
-    static let serverAddress = "https://drugon-seller.firebaseapp.com/"
+    static let serverAddress = "https://drugon-seller.firebaseapp.com/app/home/default"
     static let DocumentsDirectory = FileManager().urls(for: .documentDirectory, in: .userDomainMask).first!
     
     func saveFile(data: Data, url: URL) {
